@@ -1,7 +1,7 @@
 # Active Directory Project
 
 ## Objective
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Setting up an Active Directory (home lab) that includes Splunk, Kali Linux & Atomic Red Team. Explore how a domain envirnment works, learn how to ingest events to a SIEM, and generate telemetry related to attack seen in the wild to help understand how to detect them in the future.
 
 ### Skills Learned
 
@@ -17,3 +17,17 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - Telemetry generation tools to create realistic network traffic and attack scenarios. (Sysmon)
 
 ## Steps
+Step 1. Create a diagram of the whole process using Draw.io.
+![Activedirectory drawio](https://github.com/user-attachments/assets/43aa888f-d19e-45e4-809b-e6128d7bf504)
+
+Step 2.
+
+Step 3.
+
+Step 4.
+
+Step 5.
+
+Step 6.
+
+Step 7.
