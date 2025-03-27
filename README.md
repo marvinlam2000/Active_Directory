@@ -1,15 +1,13 @@
 # Active Directory Project
 
 ## Objective
-Setting up an Active Directory (home lab) that includes Splunk, Kali Linux & Atomic Red Team. Explore how a domain envirnment works, learn how to ingest events to a SIEM, and generate telemetry related to attack seen in the wild to help understand how to detect them in the future.
+Setting up an Active Directory (home lab) that includes Splunk, Kali Linux. Explore how a domain envirnment works, learn how to ingest events to a SIEM, and generate telemetry related to attack seen in the wild to help understand how to detect them in the future.
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
+- Simulate a Brute force attack to understand logs ingested by a SIEM tool.
+- Generate and view telemetry via Splunk.
+- Run Atomic Test
 
 ### Tools Used
 
@@ -17,7 +15,6 @@ Setting up an Active Directory (home lab) that includes Splunk, Kali Linux & Ato
 - Telemetry generation tools to create realistic network traffic and attack scenarios. (Sysmon)
 - VirtualBox
 - Kali Linux
-- Atomic Red Team
 
 ## Steps
 Step 1. Create a diagram of the whole process using Draw.io.
@@ -43,8 +40,18 @@ Step 7. On the targeted machine, go to Splunk, and create an index called endpoi
 Step 8. Repeat steps 6 and 7 on the Microsoft Server Virtual Machine. You should be able to see on Splunk that there are 2 host.
 ![step 8](https://github.com/user-attachments/assets/63288b6d-83a3-4e56-b781-6d2a98423cbd)
 
-Step 9. On the Active Directory Server, create users under custom organizational units.
+Step 9. On the Active Directory Server, create users under custom organizational units and then on the targeted machine you can login to the users created from the domain.
 ![step 9](https://github.com/user-attachments/assets/8b1db5b5-7a2d-4184-98d3-3f3703a8e897)
 
-Step 10. 
+Step 10. On the kali linux machine, configure the ip address, confirm on the terminal by pinging google and as well as the splunk server, then create a new directory in the terminal.
+![step10](https://github.com/user-attachments/assets/64692a3a-df57-40cd-a261-23d924f2222b)
+
+Step 11. On the targeted virtual machine, enable RDP and add the users created from the directory.
+![step11](https://github.com/user-attachments/assets/708c71b0-d59b-40b1-b4ab-9fea2fb0de86)
+
+Step 12. On the kali linux machine, I simulated a brute force attack and the victim machine was one of the users I created from the active directory.
+![step 12](https://github.com/user-attachments/assets/47af8b07-b953-4edb-a7d1-09cd9323a430)
+
+Step 13. Go through Splunk and look through the ingested logs.
+![step13](https://github.com/user-attachments/assets/76983f88-ed80-432c-9848-849fddb31067)
 
