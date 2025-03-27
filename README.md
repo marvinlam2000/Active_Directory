@@ -43,5 +43,8 @@ Step 7. On the targeted machine, go to Splunk, and create an index called endpoi
 Step 8. Repeat steps 6 and 7 on the Microsoft Server Virtual Machine. You should be able to see on Splunk that there are 2 host.
 ![step 8](https://github.com/user-attachments/assets/63288b6d-83a3-4e56-b781-6d2a98423cbd)
 
-Step 9.
+Step 9. On the Active Directory Server, create users under custom organizational units.
+![step 9](https://github.com/user-attachments/assets/8b1db5b5-7a2d-4184-98d3-3f3703a8e897)
+
+Step 10. 
 
