@@ -40,4 +40,8 @@ Step 6. On the targeted machine, instruct the Splunk forwarder to push events re
 Step 7. On the targeted machine, go to Splunk, and create an index called endpoint. I created a config file that allows Application, System, Security, and Sysmon events to go to the index called endpoint.
 ![step 7](https://github.com/user-attachments/assets/96d71a66-9938-456d-b755-1a5473441494)
 
-Step 8. 
+Step 8. Repeat steps 6 and 7 on the Microsoft Server Virtual Machine. You should be able to see on Splunk that there are 2 host.
+![step 8](https://github.com/user-attachments/assets/63288b6d-83a3-4e56-b781-6d2a98423cbd)
+
+Step 9.
+
