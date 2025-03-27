@@ -15,6 +15,9 @@ Setting up an Active Directory (home lab) that includes Splunk, Kali Linux & Ato
 
 - Security Information and Event Management (SIEM) system for log ingestion and analysis. (Splunk)
 - Telemetry generation tools to create realistic network traffic and attack scenarios. (Sysmon)
+- VirtualBox
+- Kali Linux
+- Atomic Red Team
 
 ## Steps
 Step 1. Create a diagram of the whole process using Draw.io.
@@ -26,11 +29,15 @@ Step 2. Download VirtualBox as this will be the place where Virtual machines wil
 Step 3. Create a NAT network on virtualbox, assign the IPv4 address, and then for each machine assign it to the NAT network just created.
 ![step3](https://github.com/user-attachments/assets/d2f2baac-24cf-40b8-8852-df7001b19cbb)
 
-
 Step 4. Set up configurations on Ubuntu and add Splunk in the ubuntu machine.
 ![step 4](https://github.com/user-attachments/assets/9626319b-ee8c-4e71-8f6a-dd84bb6fdbf6)
-Step 5.
+Step 5. Download Sysmon and Splunk Universal Forwarder downloads on the targeted machine.
+![step 5](https://github.com/user-attachments/assets/b20e0b91-5e64-4702-be69-683edf6078da)
 
-Step 6.
+Step 6. On the targeted machine, instruct the Splunk forwarder to push events related to Application, Security, Systems, and Sysmon over to Splunk server. Make sure to restart Splunk services to apply the configuration.
+![step 6](https://github.com/user-attachments/assets/11571d76-8f1d-4dd2-bb6b-9fec4a700e58)
 
-Step 7.
+Step 7. On the targeted machine, go to Splunk, and create an index called endpoint. I created a config file that allows Application, System, Security, and Sysmon events to go to the index called endpoint.
+![step 7](https://github.com/user-attachments/assets/96d71a66-9938-456d-b755-1a5473441494)
+
+Step 8. 
