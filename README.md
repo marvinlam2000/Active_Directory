@@ -1,20 +1,21 @@
 # Active Directory Project
 
 ## Objective
-Setting up an Active Directory (home lab) that includes Splunk, Kali Linux. Explore how a domain envirnment works, learn how to ingest events to a SIEM, and generate telemetry related to attack seen in the wild to help understand how to detect them in the future.
+Setting up an Active Directory (home lab) that includes Splunk, Kali Linux, and an Active Directory. Explore how a domain environment works, learn how to ingest events to a SIEM, and generate telemetry/brute force attack to help understand how to detect them in the future and what to look at in the SIEM.
 
 ### Skills Learned
-
+- Creating, managing and assigning users to an active directory.
 - Simulate a Brute force attack to understand logs ingested by a SIEM tool.
 - Generate and view telemetry via Splunk.
-- Run Atomic Test
+- Understanding basic network configurations concepts.
 
 ### Tools Used
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis. (Splunk)
-- Telemetry generation tools to create realistic network traffic and attack scenarios. (Sysmon)
-- VirtualBox
-- Kali Linux
+<img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" />
+<img src="https://img.shields.io/badge/-Sysmon-8A2BE2?&style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/-VirtualBox-183A61?&style=for-the-badge&logo=virtualbox&logoColor=white" />
+<img src="https://img.shields.io/badge/-Linux-FCC624?&style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/-Active%20Directory-003366?&style=for-the-badge&logo=microsoft&logoColor=white" />
 
 ## Steps
 Step 1. Create a diagram of the whole process using Draw.io.
